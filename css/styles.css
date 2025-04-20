@@ -546,9 +546,11 @@ img {
 }
 
 .input-form {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
     background-color: transparent;
+    align-items: center;
+
 }
 
 .email-input {
