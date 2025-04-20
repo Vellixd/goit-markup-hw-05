@@ -693,7 +693,15 @@ img {
 }
 
 .form {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 8px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+  
 }
 
 .form-label {
