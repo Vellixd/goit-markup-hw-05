@@ -546,7 +546,7 @@ img {
 }
 
 .input-form {
-    display: flex;
+    display: inline-flex;
     gap: 24px;
     background-color: transparent;
     align-items: center;
