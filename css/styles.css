@@ -700,8 +700,12 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
+.form div {
+    margin-bottom: 8px;
+}
 .form-label {
     font-size: 12px;
     line-height: 1.17;
