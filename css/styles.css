@@ -466,7 +466,7 @@ height:40px;
 .icon-button {
   margin-left: 16px; 
 }
-.info-list-windo{
+.info-list-window {
   position: fixed;
   top:0;
   left: 0;
@@ -604,7 +604,9 @@ height:40px;
 
 }
 .span-privacy {
-  display: inline-flex;
+  display:inline-flex;
+}
+.span-privacy {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -615,7 +617,6 @@ height:40px;
   fill: transparent;
   margin-right: 8px;
 }
-
 .check-box:checked + .privacy-label .span-privacy{
 background-color: #404bbf;
 border: none;
