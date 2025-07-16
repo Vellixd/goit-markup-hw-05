@@ -601,10 +601,7 @@ height:40px;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
-
-}
-.span-privacy {
-  display:inline-flex;
+  align-items: center;
 }
 .span-privacy {
   width: 16px;
@@ -616,6 +613,10 @@ height:40px;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+}
+
+.span-privacy {
+  display: inline-flex !important;
 }
 .check-box:checked + .privacy-label .span-privacy{
 background-color: #404bbf;
